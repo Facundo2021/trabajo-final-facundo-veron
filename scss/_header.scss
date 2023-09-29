@@ -1,8 +1,9 @@
 /* Header */
-@mixin anclas{
+@mixin anclas {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -20,11 +21,16 @@ nav ul li {
 
 a {
   @include anclas;
-  color: $color-anclas
+  color: $color-anclas;
 }
 
 .logo {
   width: 150px;
   display: flex;
   justify-content: start;
+  transition: transform 0.9s ease;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
 }

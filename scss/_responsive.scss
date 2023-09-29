@@ -40,6 +40,8 @@
 iframe {
   width: 600px;
   height: 450px;
+  margin: 2px 2px 2px 2px;
+  padding: 2px 2px 2px 2px;
 }
 
 /* Media query para pantallas de 300px o menos */
@@ -51,6 +53,9 @@ iframe {
     height: auto;
 
     /* La altura se ajusta automáticamente según el ancho */
+  }
+  p{
+    text-transform: lowercase;
   }
 }
 

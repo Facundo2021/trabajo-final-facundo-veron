@@ -8,6 +8,13 @@
 body {
   background-color: aqua;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-image: url("../img/maldivas_cuadrada.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+
   h2 {
     color: $color-fuentes;
     font-size: 2rem;

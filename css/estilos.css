@@ -9,6 +9,12 @@
 body {
   background-color: aqua;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-image: url("../img/maldivas_cuadrada.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
 }
 body h2 {
   color: black;
@@ -35,6 +41,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   color: #154aeb;
 }
 
@@ -42,6 +49,11 @@ a {
   width: 150px;
   display: flex;
   justify-content: start;
+  transition: transform 0.9s ease;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
 }
 
 /* Main */
@@ -59,6 +71,11 @@ h1 {
 
 .destinosPremium {
   margin-top: 1px;
+}
+
+.externos {
+  margin-bottom: 300px;
+  margin-top: auto;
 }
 
 footer {
@@ -132,6 +149,8 @@ footer {
 iframe {
   width: 600px;
   height: 450px;
+  margin: 2px 2px 2px 2px;
+  padding: 2px 2px 2px 2px;
 }
 
 /* Media query para pantallas de 300px o menos */
@@ -141,6 +160,9 @@ iframe {
     /* Cambia el ancho al 100% del contenedor principal */
     height: auto;
     /* La altura se ajusta automáticamente según el ancho */
+  }
+  p {
+    text-transform: lowercase;
   }
 }
 /* Media query para pantallas de 700px o menos */
