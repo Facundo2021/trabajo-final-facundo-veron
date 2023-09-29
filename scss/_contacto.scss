@@ -1,0 +1,76 @@
+
+/* Contacto */
+
+form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .enviar {
+    background-color: $color-botones-secundario;
+    color: $color-fondo;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .mi-Fondo {
+    background-color: rgb(13, 208, 208);
+  }
+
+  .mensajeComunicate{
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.formularioItem{
+     margin: 10px
+}
+
+.formularioPregunta{
+    margin-bottom: 5px;
+}
+
+.formularioContactoTexto{
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-bottom: 5px
+}
+.radioselector{
+    margin-right:15px
+}
+
+.formularioDeContactoConsulta{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+  

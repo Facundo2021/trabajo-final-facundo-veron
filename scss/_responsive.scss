@@ -1,0 +1,67 @@
+@media (min-width: 300px) and (max-width: 700px) {
+  main {
+    background-color: lightblue;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.headerBorder {
+  border-top: solid 20px #135950;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .video-container {
+    width: 300px;
+    height: 169px;
+  }
+}
+
+/* Estilos predeterminados para el iframe */
+
+iframe {
+  width: 600px;
+  height: 450px;
+}
+
+/* Media query para pantallas de 300px o menos */
+@media screen and (max-width: 300px) {
+  iframe {
+    width: 100%;
+
+    /* Cambia el ancho al 100% del contenedor principal */
+    height: auto;
+
+    /* La altura se ajusta automáticamente según el ancho */
+  }
+}
+
+/* Media query para pantallas de 700px o menos */
+@media screen and (max-width: 700px) {
+  iframe {
+    width: 100%;
+
+    /* Cambia el ancho al 100% del contenedor principal */
+    height: auto;
+
+    /* La altura se ajusta automáticamente según el ancho */
+  }
+}

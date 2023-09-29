@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: aqua;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid #0ef49c;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #154aeb;
+}
+
+.logo {
+  width: 150px;
+  display: flex;
+  justify-content: start;
+}
+
+/* Main */
+main {
+  margin: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+.destinosPremium {
+  margin-top: 40px;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navFooterLinks {
+  margin: 10px;
+}
+
+.navFooterLinksLegales {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.navFooterLinksLegalesLista {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.linksRedesSocialesLinks {
+  margin: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  main {
+    background-color: lightblue;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+.headerBorder {
+  border-top: solid 20px #135950;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .video-container {
+    width: 300px;
+    height: 169px;
+  }
+}
+/* Estilos predeterminados para el iframe */
+iframe {
+  width: 600px;
+  height: 450px;
+}
+
+/* Media query para pantallas de 300px o menos */
+@media screen and (max-width: 300px) {
+  iframe {
+    width: 100%;
+    /* Cambia el ancho al 100% del contenedor principal */
+    height: auto;
+    /* La altura se ajusta automáticamente según el ancho */
+  }
+}
+/* Media query para pantallas de 700px o menos */
+@media screen and (max-width: 700px) {
+  iframe {
+    width: 100%;
+    /* Cambia el ancho al 100% del contenedor principal */
+    height: auto;
+    /* La altura se ajusta automáticamente según el ancho */
+  }
+}
+/* Contacto */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input[type=text], textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.enviar {
+  background-color: #d7e722;
+  color: #0b0b0b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.mi-Fondo {
+  background-color: rgb(13, 208, 208);
+}
+
+.mensajeComunicate {
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.formularioItem {
+  margin: 10px;
+}
+
+.formularioPregunta {
+  margin-bottom: 5px;
+}
+
+.formularioContactoTexto {
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.radioselector {
+  margin-right: 15px;
+}
+
+.formularioDeContactoConsulta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* Peliculas */
+.contenedorPeliculas {
+  margin: 20px;
+  border: 4px solid seagreen;
+  border-radius: 10px;
+}
+
+.imgPeliculas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contenedorPeliculas p {
+  background-color: #154aeb;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* iframe */
+iframe {
+  display: block;
+  margin: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
