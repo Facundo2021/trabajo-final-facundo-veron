@@ -10,6 +10,12 @@ body {
   background-color: aqua;
   font-family: "Roboto", sans-serif;
 }
+body h2 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
 
 /* Header */
 header {
@@ -40,7 +46,7 @@ a {
 
 /* Main */
 main {
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   margin-top: 20px;
 }
@@ -52,7 +58,7 @@ h1 {
 }
 
 .destinosPremium {
-  margin-top: 40px;
+  margin-top: 1px;
 }
 
 footer {
@@ -241,6 +247,11 @@ input[type=text], textarea {
   font-weight: bold;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.btn-violeta {
+  background-color: violet;
+  color: white;
 }
 
 /* iframe */

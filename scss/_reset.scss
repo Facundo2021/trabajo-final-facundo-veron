@@ -8,4 +8,10 @@
 body {
   background-color: aqua;
   font-family: "Roboto", sans-serif;
+  h2 {
+    color: $color-fuentes;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
 }
