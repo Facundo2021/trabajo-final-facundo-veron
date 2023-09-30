@@ -176,6 +176,18 @@ iframe {
     /* La altura se ajusta automáticamente según el ancho */
   }
 }
+@media (max-width: 767px) {
+  .imagenGaleria {
+    max-width: 90%;
+    margin: auto;
+  }
+  .tituloPrincipal {
+    display: none;
+  }
+  .introGaleria {
+    display: none;
+  }
+}
 /* Contacto */
 form {
   margin-top: 20px;
@@ -282,6 +294,34 @@ input[type=text], textarea {
 iframe {
   display: block;
   margin: auto;
+}
+
+.introGaleria {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0ef49c;
+  margin-bottom: 3rem;
+}
+.introGaleria h2 {
+  color: black;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.imagenGaleria {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
 }
 
 /*# sourceMappingURL=estilos.css.map */
